@@ -1,7 +1,7 @@
 /* Service worker D&D: funzionamento offline.
    Strategia: cache-first con aggiornamento in background (stale-while-revalidate).
    Incrementare CACHE solo se si aggiungono/rimuovono file in ASSETS. */
-const CACHE = 'dnd-v3';
+const CACHE = 'dnd-v4';
 const ASSETS = [
   './',
   './index.html',
