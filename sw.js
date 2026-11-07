@@ -3,7 +3,7 @@
    - Online: ogni avvio scarica la versione più recente (revalidazione, bypassa la cache HTTP di GitHub Pages) e la salva.
    - Offline o rete lenta (> TIMEOUT ms): si usa la copia in cache.
    Incrementare CACHE se si aggiungono/rimuovono file in ASSETS. */
-const CACHE = 'dnd-v2';
+const CACHE = 'dnd-v3';
 const TIMEOUT = 3000;
 const ASSETS = [
   './',
