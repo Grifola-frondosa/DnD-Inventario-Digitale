@@ -5,7 +5,7 @@
      la nuova versione viene mostrata all'avvio successivo.
    - Prima installazione o file non in cache: si usa la rete.
    Incrementare CACHE se si aggiungono/rimuovono file in ASSETS. */
-const CACHE = 'dnd-v4';
+const CACHE = 'dnd-v11';
 const ASSETS = [
   './',
   './index.html',
