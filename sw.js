@@ -1,7 +1,7 @@
 /* Service worker per la PWA "D&D".
  * Incrementare CACHE_VERSION a ogni rilascio che modifica i file in PRECACHE
  * (e aggiornare VERSION in index.html). */
-const CACHE_VERSION = 'v18';
+const CACHE_VERSION = 'v19';
 const CACHE_NAME = 'dnd-' + CACHE_VERSION;
 const NAV_TIMEOUT_MS = 3000;
 
